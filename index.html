@@ -1,0 +1,76 @@
+<!doctype html> 
+<html> 
+<head> 
+    <meta charset="utf-8"> 
+    <title></title> 
+    <link rel="stylesheet" type="text/css" href="">
+    <style type="text/css">
+    *{padding: 0;margin: 0}
+    ul,li{list-style: none;}
+    a{text-decoration: none;}
+    body{background: #464547;}
+    #wrap{width: 465px;background: #fffef9;padding: 15px 25px;margin: 10px auto;border-radius: 8px;overflow: hidden;}
+    .title{margin-top: 10px;font: 500 20px/1.5 Arial;}
+    .inputtext{width: 145px;height: 28px;border: 1px solid #a1a3a6;border-radius: 5px;margin-top: 10px;font-size: 16px;float: left;display: inline-block;font-style: italic;opacity: 0.6;margin-right: 15px;}
+    .headimg{overflow: hidden;margin-top: 8px;}
+    .headimg li{float: left;height: 35px;width: 35px;margin: 3px;}
+    .headimg li img{height: 35px;width: 35px;}
+    .inputtextarea{border: 1px solid #a1a3a6;border-radius: 5px;height: 80px;width: 450px;margin-top: 8px;font-style: italic;opacity: 0.7;font: 500 16px/1.5 Arial;font-style: italic;padding: 5px;clear: both;}
+    .broadcast{float: right;font:  14px/1.5 Georgia;}
+
+    .broadcast em{font: 500 21px/1.5 Georgia;}
+    .broadcast input{width: 120px;height: 35px;background: #1d953f;border: 1px solid #65c294;color: #fff;font: 600 20px/1.5 Arial;cursor: pointer;border-radius: 5px;margin:5px 2px 0 10px;display: inline-block;}
+    .broadcast input:hover{background: #45b97c;}
+    .commentlist{clear: both;padding-top: 15px;}
+    .commentlist h3{background: #cde6c7;height: 30px;}
+    .commentlist h3 span{display: inline-block;background: #fff;margin-top: 4px;margin-left: 15px;width: 90px;height: 26px;font: 500 16px/1.8 Arial;text-align: center;}
+    .commentlist ul{overflow: hidden;}
+    .commentlist ul li{padding: 10px 0;border-bottom: 1px dashed #D8D8D8;overflow: hidden;}
+    .commentlist ul .pic{float: left;margin: 0 10px;width: 50px;height: 50px;}
+    .commentlist ul .pic img{width: 50px;height: 50px;}
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <form>
+
+        <p class="title">来，说说你在做神马，在想什么？</p>
+        <input type="text" name="username" id="username" class="inputtext" value="请输入用户名">
+
+            <ul class="headimg">
+
+                    <li>
+                        <img src="img/1.png">
+                    </li>
+                    <li><img src="img/2.png"></li>
+                    <li><img src="img/3.png"></li>
+                    <li><img src="img/4.png"></li>
+                    <li><img src="img/5.png"></li>
+
+            </ul>
+            <textarea  id="textcon" class="inputtextarea">现在在想什么呢？赶快写下来吧！</textarea>
+        <div class="broadcast">
+            <span>还能输入<em>125</em>个字
+
+            </span>
+            <input type="button" id="button" value="广播">
+        </div>
+
+    </form>
+    <div class="commentlist">
+        <h3><span>大家在说</span></h3>
+        <ul>
+        <li>
+            <div class="pic"><img src="img/1.png"></div>
+            <div class="content">
+
+                <span class="username"><a href="" >王馨霄</a></span>
+                <p>小狗狗好听话，我在看书，它也安静地看我。</p>
+            </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
+</body>
+</html>
