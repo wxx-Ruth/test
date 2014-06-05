@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-hello world!!!
-this  is  a test!
-=======
+
 hello
 the second test
->>>>>>> testbranch
